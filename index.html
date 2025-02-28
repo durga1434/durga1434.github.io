@@ -3,33 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .container {
+            display: flex;
+            width: 80%;
+            margin: 50px auto;
+            background-color: #222;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #0a1f33;
+            padding: 20px;
+            text-align: center;
+        }
+        .sidebar img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .sidebar h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .main-content {
+            width: 70%;
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <div class="resume">
-        <!-- Personal Information Section -->
-        <header>
-            <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-            <h1>John Doe</h1>
-            <p>Web Developer</p>
-        </header>
-
-        <section>
-            <h2>Education</h2>
-            <p>BS in Computer Science - University of XYZ</p>
-        </section>
-
-        <section>
-            <h2>Skills</h2>
+    <div class="container">
+        <div class="sidebar">
+            <img src="profile.jpg" alt="Profile Photo">
+            <h2>Rudra GopiDurga</h2>
+            <p>Studentr</p>
+            <h3>Contact</h3>
             <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Node.js</li>
+                <li>📞 <strong>Phone:</strong> 9390767228</li>
+                <li>✉ <strong>Email:</strong>gopi.rudra@sasi.ac.in</li>
+                <li>📍 <strong>Address:</strong>2-143, Vallurupalli, Pentapadu Mandal, West Godavari</li>
+                <li>🔗 <strong>LinkedIn:</strong>:https://www.linkedin.com/in/gopidurga-rudra-8929a6290</li>
             </ul>
-        </section>
-
-        <!-- More sections can be added below -->
+            <h3>Education</h3>
+            <ul>
+                <li><strong>2022 - 2026</strong><br> B.Tech,SASI Engineering College, Tadepalligudem<br>CGPA: 7.7</li>
+                <li><strong>2020 - 2022</strong><br> Intermediate (12th), Aditya Junior College, Tadepalligudem<br>CGPA: 7.00</li>
+                <li><strong>2019 - 2020</strong><br> Secondary Education (10th), Z P High School, Darsiparru<br>CGPA: 9.8</li>
+            </ul>
+            <h3>Skills</h3>
+            <ul>
+                <li>Computer Skills</li>
+                <li>Public Relations</li>
+                <li>Leadership</li>
+                <li>Time Management</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+                <li>English (Intermediate)</li>
+                <li>Telugu (Fluent)</li>
+                <li>Hindi(Basics)</li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>Profile</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>2025 - Present</strong><br>Marketing Manager & Specialist at Borcelle Studio</li>
+                <li><strong>2025 - 2029</strong><br>Marketing Manager at Fauget Studio</li>
+                <li><strong>2024 - 2025</strong><br>Marketing Manager at Studio Shodwe</li>
+            </ul>
+            <h2>References</h2>
+            <ul>
+                <li>GopiDurga, Student. | 9390767228 | gopidurgalakshmi@gmail.com</li>
+            </ul>
+            <h2>Declaration</h2>
+            <p>I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.</p>
+        </div>
     </div>
 </body>
 </html>
-
